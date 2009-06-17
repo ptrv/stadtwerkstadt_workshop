@@ -1,4 +1,4 @@
-#N canvas 273 152 890 648 10;
+#N canvas 274 175 890 648 10;
 #X obj 16 60 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
 -262144 -1 -1 0 256;
 #X obj 56 455 dac~;
@@ -245,31 +245,31 @@
 1;
 #X obj 335 440 delwrite~ tap2 200;
 #X obj 190 458 delwrite~ tap1 700;
-#X obj 550 3 mycounter;
-#X obj 535 -35 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 589 21 mycounter;
+#X obj 574 -17 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 614 -30 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 92 256;
-#X obj 551 34 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
--1 1;
-#X obj 548 60 select 0 1 2 3 4 5 6 7;
-#X obj 719 88 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4000 1;
-#X obj 594 87 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 5100 1;
-#X obj 568 89 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1900 1;
-#X obj 545 89 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6600 1;
-#X obj 616 89 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3300 1;
-#X obj 645 88 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 400 1;
-#X obj 669 89 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7100 1;
-#X obj 696 89 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3000 1;
-#X obj 598 218 route;
+#X obj 653 -12 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 0 256;
+#X obj 590 52 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
+-1 0;
+#X obj 587 78 select 0 1 2 3 4 5 6 7;
+#X obj 758 106 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 633 105 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 607 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 584 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 655 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 684 106 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 708 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 735 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 637 236 route;
 #X connect 0 0 17 0;
 #X connect 2 0 31 0;
 #X connect 3 0 4 0;
