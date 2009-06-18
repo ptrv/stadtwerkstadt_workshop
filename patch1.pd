@@ -245,31 +245,31 @@
 1;
 #X obj 335 440 delwrite~ tap2 200;
 #X obj 190 458 delwrite~ tap1 700;
-#X obj 589 21 mycounter;
-#X obj 571 -13 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 588 59 mycounter;
+#X obj 570 25 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 653 -12 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+#X obj 652 26 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
 -262144 -1 -1 0 256;
-#X obj 590 52 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
+#X obj 589 90 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
 -1 0;
-#X obj 587 78 select 0 1 2 3 4 5 6 7;
-#X obj 758 106 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 586 116 select 0 1 2 3 4 5 6 7;
+#X obj 757 144 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 633 105 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 632 143 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 607 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 606 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 584 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 583 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 655 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 654 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 684 106 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 683 144 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 708 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 707 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 735 107 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 734 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 637 236 route;
+#X obj 636 274 route;
 #X connect 0 0 17 0;
 #X connect 2 0 31 0;
 #X connect 3 0 4 0;
